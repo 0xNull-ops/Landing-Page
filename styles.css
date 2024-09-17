@@ -1,0 +1,166 @@
+
+.top{
+    background-color:#1F2937 ;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 256px;
+}
+
+
+#header_top{
+    color: white;
+    font-size: 24px;
+
+}
+    
+#links_top{
+    color: #F9FAF8 ;
+    display: flex;
+    font-size: 18px;
+    gap: 16px;
+    
+}
+    
+
+
+.textandimage{
+    background-color:#1F2937 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 256px;
+}
+
+.textawesome{
+    display: flex;
+    flex-direction: column; 
+}
+
+.textawesome h1{
+    color: #F9FAF8;
+    margin: 20px;
+}
+
+.textawesome p{
+    color: #F9FAF8;
+    margin: 20px;
+}
+
+.textawesome button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10%;
+}
+
+.textandimage img{
+    width: 400px;
+    max-width:50%;
+    border-radius: 10%;
+}
+
+
+/* Second Section*/
+
+.middle{
+    background-color:white ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 256px;
+}
+
+.middle h1{ 
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.middleimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+.middleimages img {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 250px;
+    max-width:50%;
+    max-height: 50%;
+    margin: 10px;
+    border-radius: 10%;
+
+  }
+  
+
+/* Third Section*/
+
+
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #E5E7EB;
+}
+
+.third h1{
+    background-color: #E5E7EB;
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+    font-style: #1F2937;
+    font-weight: normal;
+
+}
+
+.third p{
+    background-color: #E5E7EB;
+    align-self: flex-end;
+    margin-top: -10px;
+    font-size: 18px;
+    font-style: #1F2937;
+    font-weight: bold;
+    margin-right: 0;
+    margin-top: auto;
+}
+
+/* Third Section*/
+
+.fourth{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 2%;
+    margin: 20px;
+}
+
+.fourthelement{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20px;
+    background-color: #3882F6;
+}
+
+.fourthutton{
+
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    justify-content: flex-end;
+    border-radius: 10%;
+
+}
